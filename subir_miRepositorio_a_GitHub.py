@@ -13,7 +13,7 @@ os.system('git add .')
 os.system('git commit --m "nuevoCommit"')
 
 # Esta linea debe modificarse -> Colocar la ruta de nuestro repositorio
-os.system('git remote add origin https://github.com/MiUsuario/MiRepositorio')
+#os.system('git remote add origin https://github.com/MiUsuario/MiRepositorio')
 
 os.system('git pull origin main')
 
