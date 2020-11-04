@@ -1,0 +1,12 @@
+titulo=Asistente GitHub
+dimensiones=528x320
+icono=D:/Karpeta/1_-_Programacion/1_-_Python/Proyectos_-_Iniciados/Programas/Asistente_GitHub/_Imagenes/icono.ico
+colorFondo=#80AEAA
+colorLetras=#415666
+colorLetras2=#939AA0
+colorLetras3=#939AA0
+colorLetras4=#939AA0
+colorLetrasBoton=#5485AE
+colorFondoBoton=#243C6D
+colorFondoImagen=#FFFFFF
+colorFondoScrollText=#00929F
