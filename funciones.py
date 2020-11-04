@@ -10,3 +10,20 @@ def listarRepositoriosLocales(self_Master):
 # self_Master.actividadReciente.exportar()
  return(listado)
 
+def actualizarRepositorioRemoto(self_Master, directorio):
+ os.chdir(directorio)
+ os.system('git init')
+ os.system('git add .')
+
+ elCommit='No se especificaron los cambios (version beta)'
+ os.system('git commit --m "'+elCommit+'"')
+
+ url_repositorio='https://github.com/MaicFdz/Asistente_GitHub'
+ nombreURL='unaURL'
+
+ os.system('git remote add '+nombreURL+' '+url_repositorio)
+
+ os.system('git pull '+nombreURL+' main')
+ os.system('git push -f -u '+nombreURL+' main')
+
+ print('Hecho!')
