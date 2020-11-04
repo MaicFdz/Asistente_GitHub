@@ -26,7 +26,7 @@ class Interfaz():
  def establecerConfiguraciones(self_Interfaz):
 
   self_Interfaz.titulo=self_Interfaz.Master.configuracionInterfaz.configuracion['titulo']
-  self_Interfaz.icono=self_Interfaz.Master.configuracionInterfaz.configuracion['icono']
+#  self_Interfaz.icono=self_Interfaz.Master.configuracionInterfaz.configuracion['icono']
   self_Interfaz.dimensiones=self_Interfaz.Master.configuracionInterfaz.configuracion['dimensiones']
   self_Interfaz.colorFondo=self_Interfaz.Master.configuracionInterfaz.configuracion['colorFondo']
   self_Interfaz.colorLetras=self_Interfaz.Master.configuracionInterfaz.configuracion['colorLetras']
@@ -44,7 +44,6 @@ class Interfaz():
   self_Interfaz.ventanita.iconbitmap(self_Interfaz.icono)
   self_Interfaz.ventanita.geometry(self_Interfaz.dimensiones)
   self_Interfaz.ventanita.configure(background=self_Interfaz.colorFondo)
-# ES PROBABLE QUE LA LINEA DE A CONTINUACION TENGA ALGO QUE VER CON EL ERROR
   self_Interfaz.ventanita.widgets.cargarWidgetsIniciales(self_Interfaz, self_Interfaz.ventanita)
 
   self_Interfaz.ventanita.mainloop()
