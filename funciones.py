@@ -23,7 +23,7 @@ def actualizarRepositorioRemoto(self_Master, directorio):
 
  os.system('git remote add '+nombreURL+' '+url_repositorio)
 
- os.system('git pull '+nombreURL+' main')
- os.system('git push -f -u '+nombreURL+' main')
+ os.system('git pull '+nombreURL+' cambios')
+ os.system('git push -f -u '+nombreURL+' cambios')
 
  print('Hecho!')
